@@ -1,0 +1,31 @@
+﻿<Window x:Class="Tris.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tris"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="870" Width="1000">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/CartaSfondo.jpg"/>
+        </Grid.Background>
+        <Grid HorizontalAlignment="Center" Height="805" VerticalAlignment="Top" Width="532" Margin="0,34,0,0">
+            <Grid HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="504" Margin="19,157,0,0">
+                <Button x:Name="btnSopraDestra" Content="" HorizontalAlignment="Left" Height="150" Margin="334,10,0,0" VerticalAlignment="Top" Width="150" FontSize="90" Click="btnSopraDestra_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnSopraCentro" Content="" HorizontalAlignment="Left" Height="150" Margin="179,10,0,0" VerticalAlignment="Top" Width="150" FontSize="90" Click="btnSopraCentro_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnSopraSinistra" Content="" HorizontalAlignment="Left" Height="150" Margin="24,10,0,0" VerticalAlignment="Top" Width="150" FontSize="90" Click="btnSopraSinistra_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnMedioDestra" Content="" HorizontalAlignment="Left" Height="150" Margin="334,0,0,0" VerticalAlignment="Center" Width="150" FontSize="90" Click="btnMedioDestra_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnMedioCentro" Content="" HorizontalAlignment="Left" Height="150" Margin="179,0,0,0" VerticalAlignment="Center" Width="150" FontSize="90" Click="btnMedioCentro_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnMedioSinistra" Content="" HorizontalAlignment="Left" Height="150" Margin="24,0,0,0" VerticalAlignment="Center" Width="150" FontSize="90" Click="btnMedioSinistra_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnSottoDestra" Content="" HorizontalAlignment="Left" Height="150" Margin="334,320,0,0" VerticalAlignment="Top" Width="150" FontSize="90" Click="btnSottoDestra_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnSottoCentro" Content="" HorizontalAlignment="Left" Height="150" Margin="179,320,0,0" VerticalAlignment="Top" Width="150" FontSize="90" Click="btnSottoCentro_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+                <Button x:Name="btnSottoSinistra" Content="" HorizontalAlignment="Left" Height="150" Margin="24,320,0,0" VerticalAlignment="Top" Width="150" FontSize="90" Click="btnSottoSinistra_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="#BDBDBD" Background="#808080" BorderThickness="2"/>
+            </Grid>
+            <Button x:Name="btnNuovaPartita" Content="Nuova Partita" HorizontalAlignment="Left" Height="36" Margin="196,642,0,0" VerticalAlignment="Top" Width="150" Click="btnNuovaPartita_Click" Background="#B3B3B3" Foreground="Black"/>
+            <Label x:Name="lblRisultato" Content="" HorizontalAlignment="Center" Height="78" Margin="0,702,0,0" VerticalAlignment="Top" Width="460" FontSize="40" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="#E5E5E5" Visibility="Hidden" />
+            <Label Content="TRIS" HorizontalAlignment="Left" Height="111" VerticalAlignment="Top" Width="278" FontSize="80" Background="Transparent" Foreground="#4F4F4F" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="132,0,0,0"/>
+            <Button x:Name="btnCambiaModalità" Content="Umano vs Umano" HorizontalAlignment="Left" Height="36" Margin="196,116,0,0" VerticalAlignment="Top" Width="150" Click="btnCambiaModalità_Click" Background="#B3B3B3" Foreground="Black"/>
+        </Grid>
+    </Grid>
+</Window>
