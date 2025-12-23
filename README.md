@@ -27,5 +27,4 @@ Un gioco del **Tris (Tic-Tac-Toe)** sviluppato in **C#** con **WPF**, con modali
 
 
 ## 📌 **Credits**  
-Progetto creato da **Loxer**. 📽️ Guarda il video di spiegazione su YouTube! *(https://www.youtube.com/watch?v=7NgZ3KGuBW8)*  
-
+Progetto creato da **Loxer**. 
